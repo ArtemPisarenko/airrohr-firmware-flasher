@@ -4,7 +4,7 @@ from .qtvariant import QtCore
 
 
 # Firmware update repository
-UPDATE_REPOSITORY = 'https://firmware.sensor.community/airrohr/update/'
+UPDATE_REPOSITORY = 'https://air.omsk.vip/firmware/airrohr/update/'
 
 # URI prefixes (protocol parts, essentially) to be downloaded using requests
 ALLOWED_PROTO = ('http://', 'https://')
