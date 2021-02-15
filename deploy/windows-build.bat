@@ -23,6 +23,6 @@ if not exist build\cygwin build\cygwin-x86.exe --site http://cygwin.mirror.const
 	--verbose ^
 	--prune-install ^
 	--no-admin ^
-	--packages qt5-linguist-tools,make
+	--packages qt5-linguist-tools,make,git
 
 build\cygwin\bin\bash.exe --login -i -c "ln -s `which lrelease-qt5` /usr/bin/lrelease ; cd \"%cd%\" && make deps dist"
